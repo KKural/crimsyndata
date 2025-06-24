@@ -1,7 +1,0 @@
-# Recreate datasets and rebuild
-source("R/data_generation.R")
-devtools::document()
-devtools::install()
-library(crimsyndata)
-data(crime_stats_ghent)
-
