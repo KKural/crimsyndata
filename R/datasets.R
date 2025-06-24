@@ -31,3 +31,26 @@
 #'
 #' @format A character vector with 10 observations
 "crime_journal_notes"
+
+
+
+
+# 1. Create a new package project
+usethis::create_package("C:/Users/kukumar/Desktop/crimsyndata")
+
+# 2. Open that folder or set it as working directory
+setwd("C:/Users/kukumar/Desktop/crimsyndata")
+
+# 3. Copy your datasets creation script here, e.g., data-raw/synthetic_data.R
+usethis::use_data_raw(name = "synthetic_data", open = TRUE)
+
+# 4. Paste your dataset-generation code inside that file and run it
+
+# 5. Add Roxygen documentation to an R script:
+usethis::use_r("datasets")  # then paste your Roxygen documentation here
+
+# 6. Document the package
+devtools::document()
+
+# 7. Test that everything loads
+devtools::load_all()
