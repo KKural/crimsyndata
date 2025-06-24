@@ -5,19 +5,27 @@
 \alias{crime_stats_ghent}
 \title{Crime statistics in fictional districts}
 \format{
-A data frame with 60 rows and 5 variables:
+A data frame with 50 rows and 10 variables:
 \describe{
   \item{district}{Fictional district name}
-  \item{year}{Year}
+  \item{unemployment_rate}{Unemployment rate}
+  \item{poverty_rate}{Poverty rate}
+  \item{urban_density}{Urban density (residents per sq. km)}
+  \item{ethnic_diversity}{Diversity index (0–1)}
+  \item{year}{Year of record (2020–2024)}
+  \item{population}{Total population}
   \item{violent_crimes}{Number of violent crimes}
   \item{property_crimes}{Number of property crimes}
-  \item{population}{Total population}
+  \item{crime_type}{Type of recorded crime}
 }
+}
+\source{
+Synthetic data generated for teaching
 }
 \usage{
 crime_stats_ghent
 }
 \description{
-A dataset with synthetic police-recorded crime data.
+A dataset with synthetic police-recorded crime data for fictional districts.
 }
 \keyword{datasets}

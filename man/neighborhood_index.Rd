@@ -5,12 +5,22 @@
 \alias{neighborhood_index}
 \title{Socioeconomic indicators by neighborhood}
 \format{
-A data frame with 10 rows and 4 variables
+A data frame with 10 rows and 5 variables:
+\describe{
+  \item{neighborhood}{Neighborhood name}
+  \item{unemployment_rate}{Unemployment rate}
+  \item{poverty_rate}{Poverty rate}
+  \item{urban_density}{Urban density (residents per sq. km)}
+  \item{ethnic_diversity}{Diversity index (0–1)}
+}
+}
+\source{
+Synthetic data generated for teaching
 }
 \usage{
 neighborhood_index
 }
 \description{
-Socioeconomic indicators by neighborhood
+A dataset with synthetic socioeconomic characteristics by neighborhood.
 }
 \keyword{datasets}

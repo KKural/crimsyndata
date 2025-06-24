@@ -5,12 +5,22 @@
 \alias{fear_of_crime_survey}
 \title{Survey on fear of crime}
 \format{
-A data frame with 200 rows and 5 variables
+A data frame with 200 rows and 5 variables:
+\describe{
+  \item{age}{Respondent age}
+  \item{gender}{Respondent gender (Male, Female, Other)}
+  \item{income}{Income group (Low, Medium, High)}
+  \item{feel_safe_day}{Feeling of safety during the day (1–5)}
+  \item{feel_safe_night}{Feeling of safety at night (1–5)}
+}
+}
+\source{
+Synthetic data generated for teaching
 }
 \usage{
 fear_of_crime_survey
 }
 \description{
-Survey on fear of crime
+A synthetic dataset from a survey on citizens’ fear of crime.
 }
 \keyword{datasets}

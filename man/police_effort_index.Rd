@@ -5,12 +5,25 @@
 \alias{police_effort_index}
 \title{Police effort index}
 \format{
-A data frame with 10 rows and 3 variables
+A data frame with 10 rows and 8 variables:
+\describe{
+  \item{district}{District name}
+  \item{unemployment_rate}{Unemployment rate}
+  \item{poverty_rate}{Poverty rate}
+  \item{urban_density}{Urban density (residents per sq. km)}
+  \item{ethnic_diversity}{Diversity index (0–1)}
+  \item{officers_per_1000}{Police officers per 1000 inhabitants}
+  \item{clearance_rate}{Proportion of crimes cleared (0–1)}
+  \item{community_programs}{Number of community crime prevention programs}
+}
+}
+\source{
+Synthetic data generated for teaching
 }
 \usage{
 police_effort_index
 }
 \description{
-Police effort index
+A dataset with synthetic police resource and performance indicators by district.
 }
 \keyword{datasets}

@@ -7,10 +7,13 @@
 \format{
 A character vector with 10 observations
 }
+\source{
+Synthetic data generated for teaching
+}
 \usage{
 crime_journal_notes
 }
 \description{
-Crime journal notes
+A character vector of fictional citizen notes related to crime concerns.
 }
 \keyword{datasets}
