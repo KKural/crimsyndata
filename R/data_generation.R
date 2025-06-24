@@ -25,7 +25,10 @@ crime_stats_ghent <- neighborhood_index %>%
     property_crimes = round(100 + poverty_rate * 30 + rnorm(n(), 0, 25))
   ) %>%
   mutate(across(c(violent_crimes, property_crimes), ~ ifelse(. < 0, 0, .)))
+crime_types <- c("Theft", "Assault", "Burglary", "Robbery", "Vandalism")
+crime_stats_ghent$crime_type <- sample(crime_types, nrow(crime_stats_ghent), replace = TRUE)
 use_data(crime_stats_ghent, overwrite = TRUE)
+
 
 # 3. Police effort index with inverse relation to poverty
 police_effort_index <- neighborhood_index %>%
