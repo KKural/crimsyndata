@@ -22,12 +22,28 @@ library(crimsyndata)
 | police_effort_index  | Police staffing, clearance rate, and programs      |
 | crime_journal_notes  | Qualitative quotes on neighborhood safety          |
 
-## 📁 CSV Export Example
+## 📁 Data Export Options
 
-You can export a dataset like this:
-
+### Quick CSV Export
+You can export individual datasets like this:
 ```r
 write.csv(crime_stats_ghent, "crime_stats_ghent.csv", row.names = FALSE)
+```
+
+### Export All Datasets (CSV + Excel)
+To export all datasets to both CSV and Excel formats, run the included export script:
+```r
+source("export_datasets.R")
+```
+
+This will create:
+- **CSV files** in `exports/csv/` folder
+- **Individual Excel files** in `exports/excel/` folder  
+- **Combined Excel workbook** `exports/crimsyndata_all_datasets.xlsx` with all datasets as separate worksheets
+
+**Requirements for full export**: Install the `openxlsx` package first:
+```r
+install.packages("openxlsx")
 ```
 
 ## 🧪 Sample Teaching Questions
