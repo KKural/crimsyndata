@@ -20,17 +20,26 @@
 
 #' Survey on fear of crime
 #'
-#' A synthetic dataset from a survey on citizens’ fear of crime.
+#' A synthetic dataset from a survey on citizens' fear of crime with variables 
+#' representing different measurement scales for statistical education.
 #'
-#' @format A data frame with 200 rows and 5 variables:
+#' @format A data frame with 200 rows and 13 variables:
 #' \describe{
-#'   \item{age}{Respondent age}
-#'   \item{gender}{Respondent gender (Male, Female, Other)}
-#'   \item{income}{Income group (Low, Medium, High)}
-#'   \item{feel_safe_day}{Feeling of safety during the day (1–5)}
-#'   \item{feel_safe_night}{Feeling of safety at night (1–5)}
+#'   \item{age}{Respondent age in years (ratio scale)}
+#'   \item{annual_income}{Annual income in euros (ratio scale)}
+#'   \item{years_in_neighborhood}{Years living in current neighborhood (ratio scale)}
+#'   \item{gender}{Respondent gender - Male, Female, Other (nominal scale)}
+#'   \item{education}{Education level - Primary, Secondary, Bachelor, Master, PhD (nominal scale)}
+#'   \item{employment}{Employment status - Employed, Unemployed, Student, Retired, Self-employed (nominal scale)}
+#'   \item{income_category}{Income category - Very Low, Low, Medium, High, Very High (ordinal scale)}
+#'   \item{neighborhood_safety}{Perceived neighborhood safety - Very Unsafe to Very Safe (ordinal scale)}
+#'   \item{previous_victimization}{Times been victim of crime - Never to More than 5 (ordinal scale)}
+#'   \item{feel_safe_day}{Feeling of safety during the day, 1-5 scale (interval scale)}
+#'   \item{feel_safe_night}{Feeling of safety at night, 1-5 scale (interval scale)}
+#'   \item{police_trust}{Trust in police effectiveness, 1-5 scale (interval scale)}
+#'   \item{crime_concern}{General concern about crime, 1-5 scale (interval scale)}
 #' }
-#' @source Synthetic data generated for teaching
+#' @source Synthetic data generated for teaching measurement scales
 "fear_of_crime_survey"
 
 #' Socioeconomic indicators by neighborhood
