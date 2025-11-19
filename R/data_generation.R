@@ -46,7 +46,7 @@ set.seed(456)
 fear_of_crime_survey <- data.frame(
   # Ratio scale variables
   age = sample(18:80, 200, TRUE),
-  annual_income = round(rnorm(200, 45000, 15000)), # Annual income in euros
+  annual_income = round(rnorm(200, 45000, 15000)), # Annual income in euros (€)
   years_in_neighborhood = sample(0:40, 200, TRUE),
   
   # Nominal scale variables
@@ -54,58 +54,51 @@ fear_of_crime_survey <- data.frame(
   education = sample(c("Primary", "Secondary", "Bachelor", "Master", "PhD"), 200, TRUE, 
                      prob = c(0.1, 0.3, 0.35, 0.2, 0.05)),
   employment = sample(c("Employed", "Unemployed", "Student", "Retired", "Self-employed"), 200, TRUE,
-                      prob = c(0.6, 0.08, 0.12, 0.15, 0.05)),
-  
-  # Ordinal scale variables
-  income_category = sample(c("Very Low", "Low", "Medium", "High", "Very High"), 200, TRUE,
-                          prob = c(0.15, 0.25, 0.35, 0.2, 0.05)),
-  neighborhood_safety = sample(c("Very Unsafe", "Unsafe", "Neutral", "Safe", "Very Safe"), 200, TRUE,
-                              prob = c(0.1, 0.2, 0.25, 0.35, 0.1))
+                      prob = c(0.6, 0.08, 0.12, 0.15, 0.05))
 ) %>%
   mutate(
-    # Ensure income consistency
-    annual_income = pmax(annual_income, 15000), # Minimum wage
+    # Adjust income based on employment status (logical income)
     annual_income = case_when(
-      income_category == "Very Low" ~ round(runif(n(), 15000, 25000)),
-      income_category == "Low" ~ round(runif(n(), 25000, 35000)),
-      income_category == "Medium" ~ round(runif(n(), 35000, 55000)),
-      income_category == "High" ~ round(runif(n(), 55000, 80000)),
-      income_category == "Very High" ~ round(runif(n(), 80000, 120000)),
+      employment == "Student" ~ round(runif(n(), 0, 8000)), # Part-time/no income
+      employment == "Unemployed" ~ round(runif(n(), 0, 12000)), # Benefits/minimal income
+      employment == "Retired" ~ round(runif(n(), 18000, 35000)), # Pension income
+      employment == "Self-employed" ~ round(runif(n(), 25000, 80000)), # Variable income
+      employment == "Employed" ~ pmax(annual_income, 20000), # Regular salary
       TRUE ~ annual_income
     ),
     
-    # Interval scale variables (Likert scales)
-    feel_safe_day = case_when(
-      neighborhood_safety == "Very Unsafe" ~ sample(1:2, n(), TRUE),
-      neighborhood_safety == "Unsafe" ~ sample(2:3, n(), TRUE),
-      neighborhood_safety == "Neutral" ~ sample(2:4, n(), TRUE),
-      neighborhood_safety == "Safe" ~ sample(3:5, n(), TRUE),
-      neighborhood_safety == "Very Safe" ~ sample(4:5, n(), TRUE)
-    ),
+    # Generate safety feelings first
+    feel_safe_day = sample(1:5, n(), TRUE, prob = c(0.1, 0.15, 0.25, 0.35, 0.15)),
     feel_safe_night = pmax(1, feel_safe_day - sample(0:2, n(), TRUE, prob = c(0.3, 0.5, 0.2))),
     
-    # Additional interval variables
-    police_trust = round(pmin(pmax(
-      3 + ifelse(neighborhood_safety %in% c("Safe", "Very Safe"), 1, -1) +
-      ifelse(education %in% c("Bachelor", "Master", "PhD"), 0.5, -0.5) +
-      rnorm(n(), 0, 0.8),
+    # Derive overall neighborhood safety based on individual safety feelings (1-5 scale)
+    avg_safety = (feel_safe_day + feel_safe_night) / 2,
+    overall_neighborhood_safety = round(pmin(pmax(
+      avg_safety + rnorm(n(), 0, 0.3), # Add some variation
       1), 5)),
     
-    crime_concern = round(pmin(pmax(
-      6 - feel_safe_night + 
-      ifelse(gender == "Female", 1, 0) +
-      ifelse(age > 65, 0.5, 0) +
+    # Additional interval variables based on safety perceptions
+    police_trust = round(pmin(pmax(
+      1 + (overall_neighborhood_safety - 1) * 0.8 + 
+      ifelse(education %in% c("Bachelor", "Master", "PhD"), 0.5, -0.5) +
       rnorm(n(), 0, 0.6),
       1), 5)),
     
-    # Additional ordinal variable
-    previous_victimization = sample(c("Never", "Once", "2-3 times", "4-5 times", "More than 5"), 200, TRUE,
-                                   prob = c(0.6, 0.2, 0.12, 0.05, 0.03))
+    crime_concern = round(pmin(pmax(
+      6 - overall_neighborhood_safety + 
+      ifelse(gender == "Female", 0.8, 0) +
+      ifelse(age > 65, 0.5, 0) +
+      rnorm(n(), 0, 0.5),
+      1), 5)),
+    
+    # Additional ratio variable (numeric count)
+    previous_victimization = sample(0:8, n(), TRUE, prob = c(0.6, 0.2, 0.08, 0.04, 0.03, 0.02, 0.015, 0.01, 0.005))
   ) %>%
   mutate(
     feel_safe_day = round(feel_safe_day),
     feel_safe_night = round(feel_safe_night)
-  )
+  ) %>%
+  select(-avg_safety) # Remove the temporary variable
 use_data(fear_of_crime_survey, overwrite = TRUE)
 
 # 5. Crime journal notes

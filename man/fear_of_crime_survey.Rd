@@ -5,21 +5,20 @@
 \alias{fear_of_crime_survey}
 \title{Survey on fear of crime}
 \format{
-A data frame with 200 rows and 13 variables:
+A data frame with 200 rows and 11 variables:
 \describe{
   \item{age}{Respondent age in years (ratio scale)}
-  \item{annual_income}{Annual income in euros (ratio scale)}
+  \item{annual_income}{Annual income in euros (€) (ratio scale)}
   \item{years_in_neighborhood}{Years living in current neighborhood (ratio scale)}
   \item{gender}{Respondent gender - Male, Female, Other (nominal scale)}
   \item{education}{Education level - Primary, Secondary, Bachelor, Master, PhD (nominal scale)}
   \item{employment}{Employment status - Employed, Unemployed, Student, Retired, Self-employed (nominal scale)}
-  \item{income_category}{Income category - Very Low, Low, Medium, High, Very High (ordinal scale)}
-  \item{neighborhood_safety}{Perceived neighborhood safety - Very Unsafe to Very Safe (ordinal scale)}
-  \item{previous_victimization}{Times been victim of crime - Never to More than 5 (ordinal scale)}
   \item{feel_safe_day}{Feeling of safety during the day, 1-5 scale (interval scale)}
   \item{feel_safe_night}{Feeling of safety at night, 1-5 scale (interval scale)}
+  \item{overall_neighborhood_safety}{Overall neighborhood safety perception, 1-5 scale where 1=Very Unsafe, 5=Very Safe (interval scale)}
   \item{police_trust}{Trust in police effectiveness, 1-5 scale (interval scale)}
   \item{crime_concern}{General concern about crime, 1-5 scale (interval scale)}
+  \item{previous_victimization}{Number of times been victim of crime (0-8, ratio scale)}
 }
 }
 \source{

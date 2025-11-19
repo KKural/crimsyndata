@@ -1,201 +1,201 @@
-"age","annual_income","years_in_neighborhood","gender","education","employment","income_category","neighborhood_safety","feel_safe_day","feel_safe_night","police_trust","crime_concern","previous_victimization"
-62,49241,20,"Female","Bachelor","Employed","Medium","Safe",4,4,5,2,"Never"
-54,22455,31,"Other","Bachelor","Student","Very Low","Safe",3,2,4,4,"Never"
-52,100274,30,"Female","Master","Retired","Very High","Safe",4,3,4,3,"Never"
-55,63490,9,"Male","Master","Employed","High","Safe",4,3,5,4,"Once"
-38,78393,16,"Female","Bachelor","Employed","High","Safe",5,4,4,3,"Never"
-77,105081,3,"Female","Primary","Employed","Very High","Safe",4,2,5,5,"Once"
-44,51958,32,"Male","Primary","Employed","Medium","Very Unsafe",1,1,3,4,"Never"
-42,55791,14,"Female","Master","Employed","High","Neutral",4,2,2,5,"Once"
-31,42906,6,"Female","Master","Self-employed","Medium","Safe",4,4,5,3,"2-3 times"
-48,22791,0,"Female","Secondary","Student","Very Low","Very Unsafe",1,1,2,5,"Once"
-75,110285,40,"Male","PhD","Employed","Very High","Neutral",4,3,1,4,"Never"
-26,84727,27,"Male","Bachelor","Retired","Very High","Unsafe",2,1,3,5,"Never"
-32,25411,24,"Female","Bachelor","Employed","Low","Safe",3,1,5,5,"Never"
-43,38522,35,"Other","Bachelor","Employed","Medium","Very Unsafe",1,1,1,5,"Never"
-36,33191,34,"Male","Master","Retired","Low","Neutral",3,2,2,4,"Never"
-60,34799,27,"Other","Bachelor","Retired","Low","Unsafe",3,3,4,2,"Never"
-40,39935,5,"Male","PhD","Employed","Medium","Neutral",4,4,3,2,"Never"
-25,27914,27,"Female","Bachelor","Employed","Low","Neutral",4,3,2,3,"Never"
-79,18844,15,"Female","Bachelor","Retired","Very Low","Safe",4,3,3,5,"4-5 times"
-31,116213,13,"Female","Bachelor","Employed","Very High","Neutral",2,1,2,5,"Never"
-30,43055,17,"Male","Secondary","Employed","Medium","Neutral",2,1,2,5,"Never"
-22,41983,22,"Male","Bachelor","Employed","Medium","Unsafe",2,1,2,5,"4-5 times"
-69,50149,24,"Male","Master","Employed","Medium","Neutral",3,3,2,4,"2-3 times"
-47,42413,2,"Female","Primary","Employed","Medium","Safe",5,4,3,3,"Never"
-64,39353,30,"Male","Secondary","Employed","Medium","Safe",4,3,3,3,"More than 5"
-42,34523,38,"Female","Master","Employed","Low","Safe",3,1,4,5,"2-3 times"
-66,37341,23,"Female","Secondary","Student","Medium","Unsafe",2,1,1,5,"2-3 times"
-55,15742,31,"Male","Master","Employed","Very Low","Safe",5,4,4,2,"Never"
-57,51545,9,"Male","Secondary","Unemployed","Medium","Neutral",2,1,1,5,"2-3 times"
-54,34394,25,"Male","Bachelor","Student","Low","Neutral",3,2,4,3,"Once"
-58,16522,31,"Female","Secondary","Employed","Very Low","Neutral",2,1,1,5,"Never"
-51,81093,3,"Male","Bachelor","Self-employed","Very High","Neutral",4,2,2,4,"2-3 times"
-69,27524,4,"Female","Primary","Unemployed","Low","Safe",4,3,3,4,"Never"
-75,29868,19,"Female","Secondary","Student","Low","Unsafe",3,2,3,4,"Never"
-44,30416,13,"Male","Bachelor","Employed","Low","Very Unsafe",1,1,2,4,"Never"
-21,38093,16,"Female","Master","Student","Medium","Neutral",2,1,1,5,"Never"
-45,36799,17,"Female","Bachelor","Retired","Medium","Unsafe",3,1,2,5,"Once"
-27,16879,8,"Other","Bachelor","Retired","Very Low","Safe",3,3,5,4,"Never"
-48,20305,2,"Male","Bachelor","Employed","Very Low","Neutral",4,2,3,3,"Never"
-18,42262,8,"Male","Master","Employed","Medium","Unsafe",2,2,4,3,"Never"
-27,15078,17,"Female","Master","Retired","Very Low","Safe",4,3,5,3,"Once"
-73,92115,37,"Male","Secondary","Employed","Very High","Safe",5,5,4,1,"More than 5"
-42,30293,13,"Female","Secondary","Student","Low","Very Safe",4,4,4,3,"Once"
-60,34564,25,"Female","Secondary","Employed","Low","Safe",3,1,4,5,"Never"
-37,43710,3,"Male","Bachelor","Unemployed","Medium","Unsafe",2,1,2,5,"Never"
-47,31333,27,"Male","Bachelor","Retired","Low","Safe",3,2,4,4,"Never"
-28,37893,36,"Female","Secondary","Student","Medium","Neutral",3,2,2,4,"Never"
-41,58438,1,"Female","Bachelor","Employed","High","Safe",4,3,4,5,"Never"
-51,30541,9,"Other","Bachelor","Unemployed","Low","Unsafe",2,2,2,4,"Once"
-55,29059,4,"Male","Secondary","Employed","Low","Neutral",4,3,1,3,"Once"
-60,29742,40,"Male","Bachelor","Employed","Low","Safe",4,3,5,2,"Once"
-47,29047,25,"Male","Bachelor","Employed","Low","Safe",5,4,4,2,"2-3 times"
-52,62565,39,"Male","Secondary","Employed","High","Safe",4,4,3,1,"Never"
-32,34324,12,"Male","Master","Employed","Low","Neutral",4,3,3,3,"Never"
-65,25034,23,"Female","Secondary","Employed","Low","Unsafe",2,1,2,5,"Never"
-50,49644,22,"Female","Primary","Retired","Medium","Neutral",2,1,2,5,"Never"
-21,73432,37,"Male","Primary","Employed","High","Very Unsafe",1,1,1,4,"Never"
-37,46278,34,"Female","Master","Employed","Medium","Very Safe",4,3,4,4,"Never"
-33,48020,32,"Female","Master","Employed","Medium","Very Safe",4,4,5,4,"Once"
-58,35590,9,"Female","Secondary","Employed","Medium","Very Unsafe",2,1,2,5,"Never"
-42,48571,3,"Female","Master","Employed","Medium","Safe",5,3,4,4,"Never"
-79,62447,22,"Female","Secondary","Employed","High","Neutral",4,4,1,4,"2-3 times"
-19,31523,3,"Female","Secondary","Unemployed","Low","Safe",4,2,5,4,"Once"
-40,53588,8,"Female","Master","Employed","Medium","Safe",3,2,3,5,"Once"
-44,32719,34,"Female","Primary","Self-employed","Low","Neutral",2,1,1,5,"Never"
-33,40560,16,"Male","Master","Employed","Medium","Very Safe",5,4,5,1,"Never"
-33,42350,9,"Male","Master","Employed","Medium","Neutral",3,3,4,3,"4-5 times"
-41,16645,31,"Female","Master","Employed","Very Low","Very Unsafe",1,1,2,5,"Once"
-71,26721,30,"Male","Primary","Self-employed","Low","Unsafe",3,3,2,2,"Never"
-47,33481,33,"Female","PhD","Employed","Low","Safe",5,4,4,2,"4-5 times"
-74,27144,1,"Male","Secondary","Student","Low","Unsafe",3,2,1,5,"2-3 times"
-52,51272,17,"Male","PhD","Retired","Medium","Safe",5,4,5,2,"2-3 times"
-64,19477,7,"Male","Bachelor","Employed","Very Low","Neutral",3,2,2,4,"Once"
-75,26776,23,"Male","Master","Employed","Low","Unsafe",3,3,2,3,"Never"
-52,32652,5,"Female","Master","Retired","Low","Safe",3,2,4,5,"Never"
-72,33172,25,"Female","Secondary","Employed","Low","Unsafe",3,3,1,4,"Never"
-18,26347,20,"Female","Primary","Employed","Low","Unsafe",3,3,2,3,"Once"
-29,41020,20,"Female","Secondary","Student","Medium","Unsafe",2,1,1,5,"Never"
-40,17896,27,"Female","Bachelor","Self-employed","Very Low","Neutral",3,3,2,4,"Never"
-29,73574,40,"Male","Secondary","Student","High","Safe",4,3,4,2,"Never"
-34,65988,17,"Female","Bachelor","Retired","High","Unsafe",3,1,2,5,"2-3 times"
-51,20075,16,"Female","Master","Employed","Very Low","Safe",3,1,5,5,"Once"
-66,46751,8,"Male","Bachelor","Retired","Medium","Neutral",2,1,3,5,"Once"
-22,21908,9,"Female","Bachelor","Employed","Very Low","Neutral",3,2,3,5,"2-3 times"
-31,51701,37,"Female","Master","Retired","Medium","Safe",3,3,5,5,"Once"
-21,32128,12,"Male","Bachelor","Self-employed","Low","Safe",4,3,4,4,"2-3 times"
-36,26960,13,"Male","Bachelor","Employed","Low","Unsafe",3,3,3,3,"Never"
-64,27890,36,"Female","Primary","Employed","Low","Very Safe",5,5,3,1,"Never"
-42,66572,3,"Female","Bachelor","Student","High","Unsafe",3,2,3,5,"Never"
-34,31860,24,"Female","Secondary","Employed","Low","Safe",3,2,3,4,"Once"
-71,32873,7,"Female","Secondary","Employed","Low","Safe",4,4,2,3,"Never"
-27,59109,16,"Female","Bachelor","Employed","High","Unsafe",3,2,3,4,"Never"
-76,49167,13,"Female","Bachelor","Employed","Medium","Very Safe",5,5,5,2,"More than 5"
-22,39344,2,"Male","PhD","Employed","Medium","Very Safe",4,3,5,4,"Never"
-55,60721,26,"Female","Bachelor","Student","High","Safe",4,4,5,3,"Never"
-68,101569,8,"Female","Secondary","Employed","Very High","Neutral",2,1,1,5,"More than 5"
-34,92037,11,"Male","Secondary","Employed","Very High","Safe",4,3,4,2,"Never"
-53,78601,20,"Male","Bachelor","Unemployed","High","Very Unsafe",1,1,2,5,"2-3 times"
-52,27235,27,"Female","Bachelor","Employed","Low","Safe",3,1,5,5,"Never"
-25,17554,2,"Female","Primary","Student","Very Low","Safe",3,2,5,5,"Never"
-39,26079,12,"Male","Secondary","Employed","Low","Safe",4,4,2,2,"Never"
-62,28683,12,"Female","Bachelor","Student","Low","Neutral",4,3,2,4,"Never"
-43,37049,34,"Male","Master","Employed","Medium","Unsafe",2,1,2,5,"Never"
-27,27178,30,"Female","Secondary","Employed","Low","Unsafe",2,1,2,5,"Never"
-60,25908,29,"Male","Bachelor","Retired","Low","Safe",5,3,4,3,"Never"
-22,43214,8,"Female","Secondary","Employed","Medium","Neutral",2,2,1,5,"2-3 times"
-43,40946,32,"Male","Secondary","Retired","Medium","Safe",4,3,4,4,"Once"
-36,24583,33,"Male","Master","Student","Very Low","Safe",5,4,5,1,"Never"
-29,28053,10,"Female","Master","Employed","Low","Very Safe",4,4,5,3,"Never"
-52,34287,20,"Male","Master","Retired","Low","Very Safe",5,4,5,3,"Never"
-75,67854,37,"Male","Bachelor","Employed","High","Unsafe",3,2,3,5,"Never"
-57,30188,1,"Female","Bachelor","Employed","Low","Neutral",4,4,2,3,"Never"
-77,47184,39,"Male","Secondary","Unemployed","Medium","Safe",3,2,4,5,"Never"
-58,46804,22,"Female","PhD","Student","Medium","Safe",4,3,5,5,"Never"
-77,18939,27,"Male","Primary","Self-employed","Very Low","Unsafe",3,3,1,3,"Once"
-58,16759,30,"Male","Bachelor","Unemployed","Very Low","Safe",3,2,5,4,"Once"
-38,19122,23,"Male","Secondary","Retired","Very Low","Very Safe",5,4,4,3,"More than 5"
-54,27160,38,"Female","Secondary","Employed","Low","Neutral",4,4,1,3,"Never"
-41,51482,14,"Male","Bachelor","Employed","Medium","Neutral",4,3,2,3,"Never"
-26,31751,13,"Male","Bachelor","Employed","Low","Neutral",4,3,2,5,"Never"
-78,37809,23,"Male","Bachelor","Retired","Medium","Neutral",3,1,2,5,"4-5 times"
-70,73461,13,"Male","Bachelor","Retired","High","Safe",4,3,5,4,"Once"
-57,16215,28,"Female","Primary","Employed","Very Low","Neutral",3,2,2,5,"Never"
-73,45204,16,"Female","Bachelor","Retired","Medium","Very Safe",4,2,5,5,"Never"
-44,52799,33,"Male","Bachelor","Retired","Medium","Neutral",2,1,2,4,"Never"
-65,17663,21,"Male","Primary","Employed","Very Low","Safe",4,3,4,2,"Once"
-31,41566,7,"Female","Secondary","Student","Medium","Very Unsafe",1,1,1,5,"Once"
-69,42253,10,"Male","Secondary","Student","Medium","Neutral",4,3,2,4,"Never"
-21,47934,40,"Female","Bachelor","Employed","Medium","Safe",4,3,5,5,"Once"
-68,89978,39,"Male","Secondary","Employed","Very High","Very Safe",5,5,4,1,"Once"
-55,84256,14,"Female","Secondary","Employed","Very High","Neutral",3,2,1,5,"Never"
-52,22581,40,"Male","Bachelor","Employed","Very Low","Safe",5,5,5,1,"Never"
-44,43532,1,"Male","Bachelor","Retired","Medium","Neutral",4,3,1,4,"Never"
-21,48576,23,"Male","Secondary","Employed","Medium","Unsafe",2,1,1,5,"Never"
-18,15899,3,"Male","Bachelor","Employed","Very Low","Very Unsafe",2,2,3,4,"4-5 times"
-54,34587,29,"Male","Master","Employed","Low","Safe",5,5,3,1,"Once"
-24,28455,37,"Male","Bachelor","Employed","Low","Very Safe",5,4,5,3,"Never"
-74,34370,15,"Female","Bachelor","Retired","Low","Neutral",3,1,1,5,"Never"
-77,48951,9,"Male","Secondary","Employed","Medium","Safe",3,3,3,4,"Never"
-40,48879,34,"Male","Bachelor","Employed","Medium","Unsafe",2,1,2,5,"Never"
-18,34473,22,"Male","PhD","Unemployed","Low","Neutral",4,4,2,2,"Never"
-62,50721,10,"Male","Bachelor","Student","Medium","Neutral",2,2,3,4,"2-3 times"
-50,39895,2,"Female","Primary","Unemployed","Medium","Safe",3,2,2,5,"Never"
-73,53165,12,"Female","Secondary","Employed","Medium","Unsafe",3,2,2,5,"Never"
-45,22366,28,"Female","Primary","Employed","Very Low","Safe",5,5,4,2,"Never"
-70,40780,33,"Male","Bachelor","Employed","Medium","Neutral",2,1,2,5,"Once"
-43,32583,9,"Female","PhD","Employed","Low","Safe",5,3,5,3,"Once"
-22,78657,7,"Female","Primary","Employed","High","Unsafe",2,1,3,5,"Never"
-78,57160,23,"Male","Bachelor","Employed","High","Safe",3,1,5,5,"Never"
-79,113951,6,"Female","Master","Employed","Very High","Neutral",2,1,2,5,"Once"
-23,21039,38,"Male","Bachelor","Employed","Very Low","Neutral",2,1,3,5,"Never"
-19,19801,13,"Male","Bachelor","Employed","Very Low","Unsafe",3,3,3,2,"Once"
-74,30229,5,"Female","Bachelor","Employed","Low","Neutral",2,2,1,5,"Never"
-33,29357,28,"Female","Bachelor","Retired","Low","Neutral",2,1,2,5,"2-3 times"
-43,51461,19,"Female","Master","Employed","Medium","Very Safe",5,4,4,3,"Never"
-79,77968,5,"Male","Secondary","Student","High","Unsafe",2,2,1,4,"More than 5"
-64,56257,13,"Female","Secondary","Employed","High","Neutral",4,3,2,3,"4-5 times"
-53,42100,30,"Female","Secondary","Employed","Medium","Neutral",3,2,2,4,"Never"
-62,50636,3,"Male","Bachelor","Retired","Medium","Unsafe",2,1,3,4,"Never"
-42,47505,39,"Male","Primary","Student","Medium","Unsafe",2,1,2,5,"Never"
-45,40076,2,"Female","Bachelor","Student","Medium","Unsafe",2,1,4,5,"4-5 times"
-70,29071,11,"Male","Bachelor","Employed","Low","Unsafe",2,1,2,5,"Once"
-69,61925,31,"Other","Master","Employed","High","Unsafe",2,2,4,5,"Never"
-65,34287,15,"Female","Secondary","Unemployed","Low","Very Safe",4,3,4,4,"4-5 times"
-23,21474,22,"Male","Bachelor","Employed","Very Low","Neutral",3,2,4,3,"Once"
-20,21846,8,"Female","Secondary","Employed","Very Low","Safe",3,2,3,5,"Once"
-62,16284,16,"Female","Bachelor","Employed","Very Low","Neutral",4,4,4,3,"Never"
-65,37055,40,"Female","PhD","Employed","Medium","Safe",5,3,3,4,"4-5 times"
-42,44240,28,"Male","Master","Retired","Medium","Safe",4,4,4,3,"Never"
-34,33330,10,"Male","Bachelor","Self-employed","Low","Unsafe",2,2,2,4,"2-3 times"
-30,52515,1,"Male","Secondary","Employed","Medium","Very Unsafe",1,1,2,5,"2-3 times"
-22,63603,6,"Female","Secondary","Employed","High","Very Unsafe",2,1,1,5,"Never"
-65,30350,28,"Male","Primary","Retired","Low","Very Safe",4,3,2,3,"2-3 times"
-41,34140,6,"Female","Secondary","Retired","Low","Very Safe",5,5,3,2,"Never"
-27,30049,17,"Male","Master","Employed","Low","Safe",3,2,3,4,"Never"
-26,77069,17,"Female","Master","Employed","High","Neutral",4,3,2,4,"Never"
-60,66769,13,"Male","Secondary","Employed","High","Neutral",3,3,2,3,"Never"
-59,17932,29,"Female","Secondary","Employed","Very Low","Safe",5,4,2,3,"Never"
-62,40332,2,"Male","Secondary","Employed","Medium","Neutral",3,2,2,4,"Never"
-64,105888,27,"Male","Primary","Employed","Very High","Unsafe",3,2,1,5,"Never"
-67,46154,16,"Female","Master","Unemployed","Medium","Very Unsafe",2,2,1,5,"Once"
-66,20426,12,"Male","Primary","Employed","Very Low","Very Safe",5,5,3,1,"Once"
-73,25570,10,"Male","Secondary","Employed","Low","Safe",3,2,3,5,"Never"
-35,48507,28,"Male","Master","Employed","Medium","Unsafe",2,2,2,4,"Never"
-41,39319,27,"Male","Bachelor","Employed","Medium","Safe",4,3,4,3,"Never"
-44,69931,14,"Male","Primary","Student","High","Very Unsafe",2,2,1,4,"Never"
-26,15788,1,"Female","Master","Student","Very Low","Safe",5,3,3,3,"2-3 times"
-26,29750,10,"Male","Secondary","Student","Low","Neutral",4,3,3,3,"Never"
-60,34449,14,"Male","Bachelor","Employed","Low","Safe",4,3,4,2,"Never"
-22,52326,23,"Female","Primary","Employed","Medium","Neutral",2,1,1,5,"2-3 times"
-51,44620,27,"Male","Bachelor","Unemployed","Medium","Safe",5,4,5,2,"Never"
-57,51302,2,"Female","Secondary","Student","Medium","Unsafe",3,3,3,4,"Never"
-41,49290,15,"Male","Secondary","Student","Medium","Very Unsafe",1,1,1,5,"2-3 times"
-28,27475,19,"Female","Secondary","Employed","Low","Safe",3,3,5,3,"Never"
-41,32008,40,"Male","Primary","Retired","Low","Very Safe",5,3,3,4,"Once"
-22,46756,13,"Male","Secondary","Employed","Medium","Safe",4,4,2,2,"Never"
-27,32633,24,"Male","Master","Student","Low","Very Safe",4,3,5,3,"Once"
-50,48137,6,"Male","Master","Employed","Medium","Neutral",4,3,2,3,"Never"
-31,30457,21,"Male","Primary","Employed","Low","Neutral",4,4,1,2,"Once"
-30,74391,3,"Male","Bachelor","Retired","High","Safe",3,3,4,3,"Never"
+"age","annual_income","years_in_neighborhood","gender","education","employment","feel_safe_day","feel_safe_night","overall_neighborhood_safety","police_trust","crime_concern","previous_victimization"
+62,43621,20,"Female","Bachelor","Employed",2,1,2,1,4,0
+54,7085,31,"Other","Bachelor","Student",4,4,4,3,1,0
+52,26936,30,"Female","Master","Retired",3,2,2,2,5,1
+55,61754,9,"Male","Master","Employed",4,3,3,4,3,1
+38,24730,16,"Female","Bachelor","Employed",1,1,1,2,5,1
+77,36943,3,"Female","Primary","Employed",2,2,2,1,5,0
+44,39448,32,"Male","Primary","Employed",5,5,5,3,1,0
+42,50310,14,"Female","Master","Employed",3,2,3,3,4,0
+31,30722,6,"Female","Master","Self-employed",3,2,3,3,3,2
+48,6464,0,"Female","Secondary","Student",4,3,3,2,4,0
+75,27785,40,"Male","PhD","Employed",4,4,4,5,3,0
+26,21971,27,"Male","Bachelor","Retired",4,4,4,3,2,0
+32,57221,24,"Female","Bachelor","Employed",3,3,3,3,4,1
+43,59744,35,"Other","Bachelor","Employed",4,3,3,4,2,1
+36,30711,34,"Male","Master","Retired",3,2,3,3,3,0
+60,20825,27,"Other","Bachelor","Retired",4,2,3,2,4,0
+40,23493,5,"Male","PhD","Employed",4,3,3,3,3,0
+25,28486,27,"Female","Bachelor","Employed",5,3,4,4,3,0
+79,24535,15,"Female","Bachelor","Retired",3,2,3,4,5,1
+31,35380,13,"Female","Bachelor","Employed",1,1,1,2,5,0
+30,57853,17,"Male","Secondary","Employed",3,2,3,2,3,0
+22,49708,22,"Male","Bachelor","Employed",4,4,4,3,2,7
+69,63337,24,"Male","Master","Employed",5,5,5,5,1,1
+47,28105,2,"Female","Primary","Employed",3,1,2,2,5,0
+64,48544,30,"Male","Secondary","Employed",4,3,3,1,3,1
+42,25914,38,"Female","Master","Employed",3,2,3,2,5,5
+66,1800,23,"Female","Secondary","Student",4,3,3,3,5,2
+55,50334,31,"Male","Master","Employed",5,4,4,5,2,5
+57,4352,9,"Male","Secondary","Unemployed",5,4,4,3,2,0
+54,4498,25,"Male","Bachelor","Student",4,3,3,3,3,0
+58,37551,31,"Female","Secondary","Employed",2,1,2,1,5,1
+51,52219,3,"Male","Bachelor","Self-employed",3,3,3,2,3,1
+69,586,4,"Female","Primary","Unemployed",2,1,2,1,5,0
+75,4134,19,"Female","Secondary","Student",3,3,3,3,5,0
+44,20000,13,"Male","Bachelor","Employed",5,4,4,4,2,0
+21,2202,16,"Female","Master","Student",4,3,4,4,3,0
+45,29180,17,"Female","Bachelor","Retired",4,3,3,2,4,4
+27,21194,8,"Other","Bachelor","Retired",3,1,2,3,3,5
+48,32065,2,"Male","Bachelor","Employed",2,1,2,3,4,0
+18,42262,8,"Male","Master","Employed",3,2,3,3,3,5
+27,18133,17,"Female","Master","Retired",4,2,3,4,4,1
+73,65141,37,"Male","Secondary","Employed",3,1,2,1,4,0
+42,3394,13,"Female","Secondary","Student",4,3,4,3,2,0
+60,56231,25,"Female","Secondary","Employed",3,1,2,2,5,0
+37,7871,3,"Male","Bachelor","Unemployed",3,2,3,3,2,0
+47,19229,27,"Male","Bachelor","Retired",4,3,3,2,3,1
+28,177,36,"Female","Secondary","Student",4,2,3,2,4,0
+41,31360,1,"Female","Bachelor","Employed",5,4,5,5,2,0
+51,9067,9,"Other","Bachelor","Unemployed",3,2,2,3,4,2
+55,42519,4,"Male","Secondary","Employed",4,4,4,3,1,1
+60,37587,40,"Male","Bachelor","Employed",4,3,4,4,2,2
+47,21531,25,"Male","Bachelor","Employed",4,4,4,4,2,2
+52,39684,39,"Male","Secondary","Employed",4,3,3,2,4,0
+32,29671,12,"Male","Master","Employed",2,1,1,2,5,1
+65,62877,23,"Female","Secondary","Employed",3,3,3,3,3,1
+50,26267,22,"Female","Primary","Retired",2,1,1,2,5,0
+21,25911,37,"Male","Primary","Employed",1,1,1,1,5,5
+37,55378,34,"Female","Master","Employed",3,2,3,2,3,1
+33,44569,32,"Female","Master","Employed",2,1,2,3,4,1
+58,28443,9,"Female","Secondary","Employed",4,4,4,3,2,2
+42,29471,3,"Female","Master","Employed",2,1,2,3,4,1
+79,47099,22,"Female","Secondary","Employed",5,4,4,2,3,0
+19,369,3,"Female","Secondary","Unemployed",2,1,1,1,5,0
+40,27967,8,"Female","Master","Employed",1,1,1,2,5,0
+44,67454,34,"Female","Primary","Self-employed",2,1,1,1,5,0
+33,43591,16,"Male","Master","Employed",4,3,3,3,4,5
+33,20000,9,"Male","Master","Employed",3,3,3,2,3,1
+41,47266,31,"Female","Master","Employed",4,2,3,3,3,0
+71,34467,30,"Male","Primary","Self-employed",4,3,4,3,2,1
+47,57456,33,"Female","PhD","Employed",2,2,3,4,4,4
+74,2802,1,"Male","Secondary","Student",4,4,4,3,2,0
+52,34268,17,"Male","PhD","Retired",5,4,5,5,1,0
+64,21759,7,"Male","Bachelor","Employed",4,3,4,3,2,1
+75,40054,23,"Male","Master","Employed",4,3,4,4,3,0
+52,21104,5,"Female","Master","Retired",3,3,3,3,4,0
+72,30004,25,"Female","Secondary","Employed",4,2,3,2,4,0
+18,20000,20,"Female","Primary","Employed",3,1,1,1,5,1
+29,1276,20,"Female","Secondary","Student",4,2,3,1,3,0
+40,59951,27,"Female","Bachelor","Self-employed",5,3,5,4,2,0
+29,5322,40,"Male","Secondary","Student",3,3,3,3,2,0
+34,19966,17,"Female","Bachelor","Retired",4,3,3,4,3,1
+51,41469,16,"Female","Master","Employed",5,4,4,4,4,0
+66,28479,8,"Male","Bachelor","Retired",3,3,3,4,3,1
+22,43488,9,"Female","Bachelor","Employed",3,1,3,3,3,1
+31,33236,37,"Female","Master","Retired",5,4,4,2,4,1
+21,64206,12,"Male","Bachelor","Self-employed",2,2,2,2,5,1
+36,40470,13,"Male","Bachelor","Employed",1,1,1,3,5,0
+64,59947,36,"Female","Primary","Employed",1,1,1,1,5,0
+42,4940,3,"Female","Bachelor","Student",5,4,4,4,3,2
+34,58693,24,"Female","Secondary","Employed",2,1,2,2,4,3
+71,63485,7,"Female","Secondary","Employed",3,2,2,2,5,1
+27,55968,16,"Female","Bachelor","Employed",2,1,2,2,5,0
+76,38042,13,"Female","Bachelor","Employed",2,2,2,3,5,2
+22,63659,2,"Male","PhD","Employed",4,4,4,4,2,0
+55,5473,26,"Female","Bachelor","Student",5,4,4,3,3,0
+68,29057,8,"Female","Secondary","Employed",2,1,1,1,5,1
+34,49051,11,"Male","Secondary","Employed",3,2,2,1,5,0
+53,11728,20,"Male","Bachelor","Unemployed",3,1,2,2,4,1
+52,49408,27,"Female","Bachelor","Employed",1,1,1,2,5,0
+25,6960,2,"Female","Primary","Student",5,4,4,3,3,0
+39,44903,12,"Male","Secondary","Employed",5,4,5,5,1,3
+62,3661,12,"Female","Bachelor","Student",1,1,1,1,5,0
+43,43786,34,"Male","Master","Employed",4,4,4,3,3,3
+27,28914,30,"Female","Secondary","Employed",4,4,4,2,3,0
+60,24698,29,"Male","Bachelor","Retired",3,1,2,3,3,1
+22,46941,8,"Female","Secondary","Employed",3,3,3,2,4,1
+43,22075,32,"Male","Secondary","Retired",4,4,3,2,3,1
+36,6836,33,"Male","Master","Student",3,2,2,3,4,0
+29,62837,10,"Female","Master","Employed",4,3,3,3,3,1
+52,33137,20,"Male","Master","Retired",3,3,4,2,2,0
+75,55481,37,"Male","Bachelor","Employed",4,4,4,3,3,0
+57,36737,1,"Female","Bachelor","Employed",4,2,3,3,3,4
+77,2413,39,"Male","Secondary","Unemployed",2,1,2,1,5,0
+58,1756,22,"Female","PhD","Student",3,3,3,3,4,0
+77,50206,27,"Male","Primary","Self-employed",4,2,3,3,3,0
+58,1570,30,"Male","Bachelor","Unemployed",4,2,3,3,3,0
+38,25008,23,"Male","Secondary","Retired",3,3,3,1,3,0
+54,57491,38,"Female","Secondary","Employed",4,3,3,2,4,0
+41,20000,14,"Male","Bachelor","Employed",5,3,4,4,2,2
+26,65940,13,"Male","Bachelor","Employed",4,4,4,3,3,0
+78,19261,23,"Male","Bachelor","Retired",4,3,3,4,4,0
+70,19906,13,"Male","Bachelor","Retired",4,4,4,4,3,0
+57,37255,28,"Female","Primary","Employed",4,3,4,3,2,2
+73,31433,16,"Female","Bachelor","Retired",3,2,2,3,4,0
+44,24552,33,"Male","Bachelor","Retired",5,4,5,5,1,0
+65,22656,21,"Male","Primary","Employed",3,2,3,2,3,1
+31,1877,7,"Female","Secondary","Student",4,3,3,1,3,4
+69,1838,10,"Male","Secondary","Student",3,1,2,2,4,0
+21,69866,40,"Female","Bachelor","Employed",2,1,2,2,5,0
+68,34801,39,"Male","Secondary","Employed",3,2,3,3,4,0
+55,58331,14,"Female","Secondary","Employed",4,2,3,3,4,0
+52,46228,40,"Male","Bachelor","Employed",3,3,3,2,3,0
+44,21240,1,"Male","Bachelor","Retired",3,1,2,3,3,0
+21,54866,23,"Male","Secondary","Employed",2,1,2,2,3,0
+18,33629,3,"Male","Bachelor","Employed",2,2,2,2,4,0
+54,54292,29,"Male","Master","Employed",3,2,3,4,2,0
+24,75907,37,"Male","Bachelor","Employed",5,4,4,5,2,2
+74,23691,15,"Female","Bachelor","Retired",3,3,3,3,4,0
+77,72756,9,"Male","Secondary","Employed",2,2,2,1,4,0
+40,32180,34,"Male","Bachelor","Employed",2,2,2,3,3,0
+18,5354,22,"Male","PhD","Unemployed",2,1,1,2,5,3
+62,2060,10,"Male","Bachelor","Student",5,4,5,4,1,0
+50,4148,2,"Female","Primary","Unemployed",4,3,3,2,4,0
+73,20000,12,"Female","Secondary","Employed",1,1,1,1,5,0
+45,60094,28,"Female","Primary","Employed",4,3,3,3,4,1
+70,51302,33,"Male","Bachelor","Employed",4,3,4,3,4,0
+43,29640,9,"Female","PhD","Employed",4,2,3,3,4,0
+22,55328,7,"Female","Primary","Employed",5,3,4,4,2,1
+78,41251,23,"Male","Bachelor","Employed",4,3,4,4,3,1
+79,46070,6,"Female","Master","Employed",4,4,4,4,3,0
+23,48751,38,"Male","Bachelor","Employed",3,2,2,3,4,0
+19,26566,13,"Male","Bachelor","Employed",3,2,3,3,3,0
+74,44120,5,"Female","Bachelor","Employed",4,4,4,4,4,0
+33,29224,28,"Female","Bachelor","Retired",4,2,2,3,4,2
+43,25714,19,"Female","Master","Employed",5,4,4,4,3,0
+79,6154,5,"Male","Secondary","Student",3,1,2,3,4,3
+64,38380,13,"Female","Secondary","Employed",1,1,1,1,5,1
+53,50309,30,"Female","Secondary","Employed",3,1,2,1,5,5
+62,19403,3,"Male","Bachelor","Retired",5,4,5,5,1,0
+42,534,39,"Male","Primary","Student",2,1,1,1,5,0
+45,2540,2,"Female","Bachelor","Student",4,3,3,3,3,5
+70,70259,11,"Male","Bachelor","Employed",5,4,4,3,3,0
+69,58448,31,"Other","Master","Employed",4,3,3,4,4,0
+65,10193,15,"Female","Secondary","Unemployed",4,4,4,2,2,0
+23,30165,22,"Male","Bachelor","Employed",4,3,4,4,1,0
+20,70497,8,"Female","Secondary","Employed",3,1,3,2,4,0
+62,48814,16,"Female","Bachelor","Employed",4,4,4,4,3,0
+65,57311,40,"Female","PhD","Employed",4,3,3,3,5,0
+42,30529,28,"Male","Master","Retired",3,1,2,3,5,0
+34,70815,10,"Male","Bachelor","Self-employed",4,3,3,3,3,0
+30,20000,1,"Male","Secondary","Employed",5,4,5,3,1,1
+22,69814,6,"Female","Secondary","Employed",3,2,3,2,3,0
+65,28419,28,"Male","Primary","Retired",3,1,2,2,3,0
+41,26431,6,"Female","Secondary","Retired",4,3,3,2,4,2
+27,57713,17,"Male","Master","Employed",4,3,3,4,3,0
+26,44508,17,"Female","Master","Employed",5,3,4,4,2,0
+60,27920,13,"Male","Secondary","Employed",3,2,2,2,4,4
+59,45286,29,"Female","Secondary","Employed",4,3,4,3,2,0
+62,57794,2,"Male","Secondary","Employed",4,3,4,4,2,4
+64,45120,27,"Male","Primary","Employed",5,4,5,4,1,2
+67,11559,16,"Female","Master","Unemployed",3,3,3,3,5,0
+66,46684,12,"Male","Primary","Employed",2,1,2,2,4,0
+73,85492,10,"Male","Secondary","Employed",3,2,2,2,5,0
+35,36337,28,"Male","Master","Employed",2,2,2,2,5,5
+41,34161,27,"Male","Bachelor","Employed",4,3,3,4,2,3
+44,5850,14,"Male","Primary","Student",5,5,5,3,1,0
+26,6561,1,"Female","Master","Student",1,1,1,2,5,2
+26,4563,10,"Male","Secondary","Student",5,5,5,3,1,1
+60,30658,14,"Male","Bachelor","Employed",2,2,2,2,4,0
+22,54955,23,"Female","Primary","Employed",5,4,4,3,3,1
+51,2102,27,"Male","Bachelor","Unemployed",3,2,2,3,4,1
+57,679,2,"Female","Secondary","Student",5,4,5,2,2,2
+41,739,15,"Male","Secondary","Student",2,1,1,1,4,0
+28,50114,19,"Female","Secondary","Employed",4,3,4,2,2,0
+41,34345,40,"Male","Primary","Retired",4,4,4,2,3,0
+22,32426,13,"Male","Secondary","Employed",3,3,3,2,3,0
+27,3648,24,"Male","Master","Student",2,1,2,2,4,0
+50,63591,6,"Male","Master","Employed",2,2,2,3,4,0
+31,28052,21,"Male","Primary","Employed",3,1,2,1,4,0
+30,26288,3,"Male","Bachelor","Retired",2,2,2,3,4,0
